@@ -1,0 +1,17 @@
+{
+  "name": "electron-webview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "packager": "npx @electron/packager . app --platform=darwin,win32,linux --arch=x64 --out=dist --overwrite --icon=icon/icon.png --prune=true --asar"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@electron/packager": "^18.3.2",
+    "electron": "^30.0.9"
+  }
+}
