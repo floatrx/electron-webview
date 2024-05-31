@@ -3,9 +3,16 @@ const { app, BrowserWindow } = require('electron')
 async function createWindow() {
   // Create the browser window.
   const mainWindow = new BrowserWindow({
-    width: 800,
-    height: 600,
-    backgroundColor:'#100238',
+    width: 480,
+    height: 480,
+    backgroundColor: '#100238',
+
+    // ... extra
+    maxHeight: 800,
+    maxWidth: 800,
+    hasShadow: false,
+    alwaysOnTop: true,
+
     webPreferences: {
       nodeIntegration: false,
       contextIsolation: true,

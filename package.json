@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "electron .",
-    "packager": "npx @electron/packager . app --platform=darwin,win32,linux --arch=x64 --out=dist --overwrite --icon=icon/icon.png --prune=true --asar"
+    "packager": "npx @electron/packager . Nums --platform=darwin,win32,linux --arch=x64 --out=dist --overwrite --icon=icon/icon.png --prune=true --asar"
   },
   "keywords": [],
   "author": "",
