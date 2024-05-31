@@ -4,6 +4,10 @@ This is a simple example of how to wraps any web page in an Electron webview as 
 
 In this example, we use [Electron](https://www.electronjs.org/) to create a desktop application that wraps [https://nums.floatrx.net](https://nums.floatrx.net) in a webview.
 
+![Screenshot](app.png)
+
+
+
 ### Install dependencies
 ```bash
 bun install
